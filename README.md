@@ -1,4 +1,4 @@
-# ImmoScout24 Landingpage
+# Immo Organisator Landingpage
 
 Diese Website ist die offizielle Landingpage fuer den [Immo Organisator](https://www.immo-organisator.de):
 
