@@ -1,16 +1,17 @@
 # ImmoScout24 Landingpage
 
-Diese Website ist die offizielle Landingpage fuer den ImmoScout24 Organisator:
+Diese Website ist die offizielle Landingpage fuer den [ImmoScout24 Organisator](https://www.immoscout24-organisator.de):
+
 https://www.immoscout24-organisator.de
 
-Der ImmoScout24 Organisator ist eine Browser-Extension, die deine ImmoScout24-Suche direkt in der Plattform erweitert. Statt Notizen in externen Tools, Tabellen oder Chatverlaeufen zu verstreuen, legst du alle Infos direkt am Favoriten oder Expose ab.
+Der ImmoScout24 Organisator ist eine Browser App, die deine ImmoScout24-Suche direkt in der Plattform erweitert. Statt Notizen in externen Tools, Tabellen oder Chatverlaeufen zu verstreuen, legst du alle Infos direkt am Favoriten oder Expose ab.
 
 ## Was die Extension macht
 
 - Notizen direkt an Immobilien speichern
+- Favoriten strukturiert gruppieren und schneller vergleichen
 - Status pro Immobilie setzen (z. B. gespeichert, kontaktiert, besichtigt)
 - Schlagworte und Highlights fuer schnellere Priorisierung nutzen
-- Favoriten strukturiert gruppieren und schneller vergleichen
 
 ## Nutzen
 
