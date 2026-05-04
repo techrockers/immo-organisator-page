@@ -1,10 +1,10 @@
 # ImmoScout24 Landingpage
 
-Diese Website ist die offizielle Landingpage fuer den [ImmoScout24 Organisator](https://www.immoscout24-organisator.de):
+Diese Website ist die offizielle Landingpage fuer den [Immo Organisator](https://www.immo-organisator.de):
 
-https://www.immoscout24-organisator.de
+https://www.immo-organisator.de
 
-Der ImmoScout24 Organisator ist eine Browser App, die deine ImmoScout24-Suche direkt in der Plattform erweitert. Statt Notizen in externen Tools, Tabellen oder Chatverlaeufen zu verstreuen, legst du alle Infos direkt am Favoriten oder Expose ab.
+Der Immo Organisator ist eine Browser App, die deine ImmoScout24-Suche direkt in der Plattform erweitert. Statt Notizen in externen Tools zu verstreuen, legst du alle Infos direkt am Favoriten oder Expose ab.
 
 ## Was die Extension macht
 
@@ -24,15 +24,15 @@ Der ImmoScout24 Organisator ist eine Browser App, die deine ImmoScout24-Suche di
 
 Die Extension ist verfuegbar fuer:
 
-- Google Chrome - [im Web Store öffnen](https://chromewebstore.google.com/detail/immoscout24-organisator/djmakpjgidbgchnhhplcigkfkcioaija)
+- Google Chrome - [im Web Store öffnen](https://chromewebstore.google.com/detail/immo-organisator/djmakpjgidbgchnhhplcigkfkcioaija)
 - Mozilla Firefox - [im Web Store öffnen](https://addons.mozilla.org/de/firefox/addon/immoscout24-organizer)
-- Microsoft Edge - [im Web Store öffnen](https://microsoftedge.microsoft.com/addons/detail/immoscout24-organisator/godffgckocjmdfcomoaincfiafackebl)
+- Microsoft Edge - [im Web Store öffnen](https://microsoftedge.microsoft.com/addons/detail/immo-organisator/godffgckocjmdfcomoaincfiafackebl)
 
 ## Homepage
 
 Homepage mit weiteren Informationen
 
-- [www.immoscout24-organisator.de](https://www.immoscout24-organisator.de)
+- [www.immo-organisator.de](https://www.immo-organisator.de)
 
 ## Technisches
 
@@ -78,6 +78,6 @@ Ohne Variable verwendet Vite den Standard `./`.
 
 ## Dahinter
 
-Der ImmoScout24 Organisator wird von [TechRock](https://techrock.de) entwickelt und gepflegt.
+Der Immo Organisator wird von [TechRock](https://techrock.de) entwickelt und gepflegt.
 
 - https://techrock.de
