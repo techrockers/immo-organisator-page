@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ImmoScout24 Organisator erweitert deine ImmoScout24 Favoriten und Exposes um Notizen, Status, Schlagworte und Gruppierung."
+    />
+    <meta name="theme-color" content="#00ffd0" />
+    <meta property="og:title" content="ImmoScout24 Organisator" />
+    <meta
+      property="og:description"
+      content="Mehr Übersicht für ImmoScout24: Notizen, Status und Schlagworte direkt bei deinen Immobilien."
+    />
+    <meta property="og:type" content="website" />
+    <title>ImmoScout24 Organisator | Browser Extension von TechRock</title>
+    <link rel="icon" href="icons/icon-48.png" />
+    <link rel="apple-touch-icon" href="icons/icon-128.png" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script type="module" src="src/main.ts"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="ImmoScout24 Organisator">
+          <img src="icons/icon-48.png" alt="" width="48" height="48" />
+          <span>
+            <strong>ImmoScout24 Organisator</strong>
+            <span>Browser Extension</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Seitennavigation">
+          <a href="#funktionen">Funktionen</a>
+          <a href="#screenshots">Screenshots</a>
+          <a href="#stores" class="button button-primary">Installieren</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="section hero" aria-labelledby="hero-title">
+          <div>
+            <p class="eyebrow">Direkt in ImmoScout24</p>
+            <h1 id="hero-title">Deine Immosuche bleibt sortiert.</h1>
+            <p class="hero-copy">
+              Der ImmoScout24 Organisator ergänzt Favoriten und Exposés um Kategorien,
+              Notizen, Schlagworte und Highlighting. Alles bleibt dort, wo du ohnehin
+              suchst.
+            </p>
+            <div class="integration-badge" aria-label="Integration mit ImmoScout24">
+              <span>Erweitert</span>
+              <img src="immoscout24-logo.png" alt="ImmoScout24" width="148" height="38" />
+            </div>
+            <div class="hero-actions" aria-label="Store Links">
+              <a
+                class="button button-primary"
+                href="https://chromewebstore.google.com/detail/immoscout24-organisator/djmakpjgidbgchnhhplcigkfkcioaija"
+                rel="noopener noreferrer"
+              >
+                Für Chrome
+              </a>
+              <a
+                class="button"
+                href="https://addons.mozilla.org/de/firefox/addon/immoscout24-organizer"
+                rel="noopener noreferrer"
+              >
+                Für Firefox
+              </a>
+              <a
+                class="button"
+                href="https://microsoftedge.microsoft.com/addons/detail/immoscout24-organisator/godffgckocjmdfcomoaincfiafackebl"
+                rel="noopener noreferrer"
+              >
+                Für Edge
+              </a>
+            </div>
+            <div class="trust-row" aria-label="Kurzvorteile">
+              <div>
+                <strong>Keine Tabellen</strong>
+                <span>Notizen und Bewertung direkt am Inserat.</span>
+              </div>
+              <div>
+                <strong>Lokale Daten</strong>
+                <span>Deine Einträge bleiben im Browser-Storage.</span>
+              </div>
+              <div>
+                <strong>Schneller entscheiden</strong>
+                <span>Status und Schlagworte zeigen, was als Nächstes zählt.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-stage" aria-label="Produktvorschau">
+            <div class="browser-frame">
+              <div class="browser-bar" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <img
+                src="editor.png"
+                alt="Notiz-Editor des ImmoScout24 Organisators direkt am Favoriten"
+                width="455"
+                height="679"
+              />
+            </div>
+            <div class="status-chip">Notizen direkt am Favoriten hinterlegen. Nach Belieben strukturiert.</div>
+          </div>
+        </section>
+
+        <section class="section" id="funktionen" aria-labelledby="features-title">
+          <p class="eyebrow">Nutzen</p>
+          <h2 id="features-title">Vom Favoriten-Chaos zur klaren Shortlist.</h2>
+          <p class="section-intro">
+            Für alle, die auf ImmoScout24 mehrere Wohnungen oder Häuser vergleichen und den
+            Überblick über Kontakt, Besichtigung und Details behalten wollen: Nach Belieben
+            Kategorien anlegen, wie es am besten passt und Favoriten darin einordnen. So behältst du
+            auch bei vielen Inseraten den Überblick und findest die wichtigsten Details direkt am Objekt.
+          </p>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">✓</div>
+              <h3>Status pro Immobilie</h3>
+              <p>Markiere Inserate als gespeichert, kontaktiert, besichtigt oder frei benannt.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">#</div>
+              <h3>Schlagworte auf Karten</h3>
+              <p>Lege kurze Labels wie Warteliste, Anrufen oder Nochmal durchgehen direkt sichtbar ab.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">B</div>
+              <h3>Rich-Text-Notizen</h3>
+              <p>Sammle Pro, Contra, Termine und offene Fragen direkt im Exposé.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">★</div>
+              <h3>Highlights</h3>
+              <p>Hebe wichtige Favoriten hervor, damit sie in der Shortlist nicht untergehen.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="screenshots" aria-labelledby="screenshots-title">
+          <p class="eyebrow">Screenshots</p>
+          <h2 id="screenshots-title">So sieht Organisation in ImmoScout24 aus.</h2>
+          <p class="section-intro">
+            Klicke auf ein Bild, um Details wie Kategorien, Notiz-Popup, Statusgruppen und Exposé-Ansicht
+            größer zu betrachten.
+          </p>
+          <div class="gallery" aria-label="Screenshot-Galerie">
+            <button
+              class="gallery-item gallery-item-large"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.05.03.png"
+              data-lightbox-title="Exposé mit Notiz-Popup"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.05.03.png"
+                alt="Exposé-Seite mit geöffnetem ImmoScout24 Organisator"
+                width="1258"
+                height="1035"
+              />
+              <span>Exposé mit Notiz-Popup</span>
+            </button>
+            <button
+              class="gallery-item gallery-item-tall"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.52.24.png"
+              data-lightbox-title="Favoriten mit Status und Labels"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.52.24.png"
+                alt="Favoritenliste mit Kategorien, Labels und hervorgehobenen Immobilien"
+                width="1048"
+                height="1095"
+              />
+              <span>Favoriten mit Status und Labels</span>
+            </button>
+            <button
+              class="gallery-item"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.01.56.png"
+              data-lightbox-title="Kategorien verwalten"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.01.56.png"
+                alt="Kategorien-Verwaltung in der Favoritenliste"
+                width="1030"
+                height="752"
+              />
+              <span>Kategorien verwalten</span>
+            </button>
+            <button
+              class="gallery-item"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.00.21.png"
+              data-lightbox-title="Notizen mit Vorlage speichern"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.00.21.png"
+                alt="Notiz-Popup mit Kategorie, Schlagwort und Rich-Text-Notiz"
+                width="450"
+                height="511"
+              />
+              <span>Notizen mit Vorlage speichern</span>
+            </button>
+            <button
+              class="gallery-item gallery-item-wide"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.03.01.png"
+              data-lightbox-title="Gruppierte Favoriten"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.03.01.png"
+                alt="Kompakte Ansicht der gruppierten Favoriten"
+                width="862"
+                height="376"
+              />
+              <span>Gruppierte Favoriten</span>
+            </button>
+            <button
+              class="gallery-item"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.07.10.png"
+              data-lightbox-title="Exposé-Ansicht mit Organisator"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.07.10.png"
+                alt="Exposé-Ansicht mit eingeblendeter Organisator-Funktion"
+                width="1255"
+                height="911"
+              />
+              <span>Exposé-Ansicht mit Organisator</span>
+            </button>
+            <button
+              class="gallery-item"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.01.07.png"
+              data-lightbox-title="Favoritenübersicht"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.01.07.png"
+                alt="Favoritenübersicht mit mehreren Immobilienkarten"
+                width="1033"
+                height="575"
+              />
+              <span>Favoritenübersicht</span>
+            </button>
+            <button
+              class="gallery-item"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.59.12.png"
+              data-lightbox-title="Notiz-Editor"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.59.12.png"
+                alt="Notiz-Editor mit Kategorie und Schlagwort"
+                width="468"
+                height="802"
+              />
+              <span>Notiz-Editor</span>
+            </button>
+            <button
+              class="gallery-item gallery-item-compact"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.54.04.png"
+              data-lightbox-title="Kategorie auswählen"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.54.04.png"
+                alt="Auswahlfeld für Kategorien"
+                width="252"
+                height="367"
+              />
+              <span>Kategorie auswählen</span>
+            </button>
+            <button
+              class="gallery-item gallery-item-compact"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.54.13.png"
+              data-lightbox-title="Status setzen"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.54.13.png"
+                alt="Statusauswahl im Organisator"
+                width="248"
+                height="369"
+              />
+              <span>Status setzen</span>
+            </button>
+            <button
+              class="gallery-item gallery-item-compact"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.00.47.png"
+              data-lightbox-title="Schlagwort auf Favorit"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2019.00.47.png"
+                alt="Schlagwort-Anzeige auf einer Favoritenkarte"
+                width="392"
+                height="73"
+              />
+              <span>Schlagwort auf Favorit</span>
+            </button>
+            <button
+              class="gallery-item gallery-item-compact"
+              type="button"
+              data-lightbox-src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.59.51.png"
+              data-lightbox-title="Toolbar-Ausschnitt"
+            >
+              <img
+                src="screenshots/Bildschirmfoto%202026-05-03%20um%2018.59.51.png"
+                alt="Toolbar-Ausschnitt des Organisators"
+                width="124"
+                height="46"
+              />
+              <span>Toolbar-Ausschnitt</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="workflow-title">
+          <p class="eyebrow">Workflow</p>
+          <h2 id="workflow-title">In drei Minuten eingerichtet.</h2>
+          <div class="steps">
+            <article class="step">
+              <span class="step-number">1</span>
+              <h3>Extension installieren</h3>
+              <p>Chrome, Firefox oder Edge auswählen und Erweiterung im Browser aktivieren.</p>
+            </article>
+            <article class="step">
+              <span class="step-number">2</span>
+              <h3>Favoriten öffnen</h3>
+              <p>ImmoScout24 wie gewohnt nutzen. Der Organisator erscheint direkt in Favoriten und Exposés.</p>
+            </article>
+            <article class="step">
+              <span class="step-number">3</span>
+              <h3>Shortlist pflegen</h3>
+              <p>Status, Schlagwort, Highlight und Notiz setzen. Änderungen werden automatisch gespeichert.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="stores" aria-labelledby="stores-title">
+          <div class="download-band">
+            <div>
+              <p class="eyebrow">Download</p>
+              <h2 id="stores-title">Hol dir den Organisator für deinen Browser.</h2>
+              <p>Kostenlos installieren und deine ImmoScout24-Favoriten sofort strukturieren.</p>
+              <aside class="notice" aria-label="Hinweis zur Geräteunterstützung">
+                <strong>Hinweis:</strong>
+                Browser-Erweiterungen funktionieren in der Regel nur auf Desktop-Browsern,
+                nicht auf mobilen Geräten.
+              </aside>
+            </div>
+            <div class="store-grid" aria-label="Browser Stores">
+              <a
+                class="store-link"
+                href="https://chromewebstore.google.com/detail/immoscout24-organisator/djmakpjgidbgchnhhplcigkfkcioaija"
+                rel="noopener noreferrer"
+              >
+                Chrome Web Store
+              </a>
+              <a
+                class="store-link"
+                href="https://addons.mozilla.org/de/firefox/addon/immoscout24-organizer"
+                rel="noopener noreferrer"
+              >
+                Firefox Add-ons
+              </a>
+              <a
+                class="store-link"
+                href="https://microsoftedge.microsoft.com/addons/detail/immoscout24-organisator/godffgckocjmdfcomoaincfiafackebl"
+                rel="noopener noreferrer"
+              >
+                Edge Add-ons
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="faq-title">
+          <p class="eyebrow">Kurz erklärt</p>
+          <h2 id="faq-title">Passt in deinen bestehenden Suchprozess.</h2>
+          <div class="faq-grid">
+            <article class="faq-item">
+              <h3>Wo funktioniert die Extension?</h3>
+              <p>
+                In deinen ImmoScout24-Favoriten und auf unterstützten Exposé-Seiten im
+                Desktop-Browser.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Werden Daten übertragen?</h3>
+              <p>Nein. Notizen und Status werden lokal im Browser gespeichert.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Wer entwickelt die Extension?</h3>
+              <p>Entwickelt und gepflegt von TechRock.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="powered" href="https://techrock.de" rel="noopener noreferrer">
+          <img src="icons/icon-48.png" alt="" width="48" height="48" />
+          <span>
+            <span>Powered by</span>
+            <strong>TechRock</strong>
+          </span>
+        </a>
+        <div class="footer-links">
+          <a href="https://techrock.de" rel="noopener noreferrer">techrock.de</a>
+          <a href="#stores">Store Links</a>
+        </div>
+      </footer>
+
+      <dialog class="lightbox" aria-label="Screenshot vergrößert">
+        <button class="lightbox-close" type="button" aria-label="Schließen">×</button>
+        <figure>
+          <img alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </dialog>
+    </div>
+  </body>
+</html>
