@@ -75,8 +75,8 @@ Ohne Variable verwendet Vite den Standard `./`.
 - `public/` - statische Assets (Icons, Logos, Screenshots)
 - `workflows/pages.yml` - CI/CD fuer GitHub Pages
 
-## TechRock
+## Dahinter
 
-Der ImmoScout24 Organisator wird von TechRock entwickelt und gepflegt.
+Der ImmoScout24 Organisator wird von [TechRock](https://techrock.de) entwickelt und gepflegt.
 
-- TechRock: https://techrock.de
+- https://techrock.de
