@@ -58,7 +58,7 @@ Der Build wird in `landing-dist/` erzeugt.
 
 ### Deployment (GitHub Pages)
 
-Der Deploy-Workflow liegt in `workflows/pages.yml`.
+Der Deploy-Workflow liegt in `.github/workflows/pages.yml`.
 
 - Pull Requests: Build und Artifact-Upload
 - Push auf `main`: Build + Deploy
@@ -73,7 +73,7 @@ Ohne Variable verwendet Vite den Standard `./`.
 - `src/main.ts` - Interaktionen (z. B. Lightbox)
 - `src/styles.css` - Styling
 - `public/` - statische Assets (Icons, Logos, Screenshots)
-- `workflows/pages.yml` - CI/CD fuer GitHub Pages
+- `.github/workflows/pages.yml` - CI/CD fuer GitHub Pages
 
 ## Dahinter
 
