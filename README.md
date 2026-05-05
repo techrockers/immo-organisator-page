@@ -1,10 +1,10 @@
-# Immo Organisator Landingpage
+# Immo Organisator Page
 
 Diese Website ist die offizielle Landingpage fuer den [Immo Organisator](https://www.immo-organisator.de):
 
 https://www.immo-organisator.de
 
-Der Immo Organisator ist eine Browser App, die deine ImmoScout24-Suche direkt in der Plattform erweitert. Statt Notizen in externen Tools zu verstreuen, legst du alle Infos direkt am Favoriten oder Expose ab.
+Der Immo Organisator ist eine Browser Erweiterung, die deine ImmoScout24-Suche direkt in der Plattform erweitert. Statt Notizen in externen Tools zu verstreuen, legst du alle Infos direkt am Favoriten oder Expose ab.
 
 ## Was die Extension macht
 
@@ -25,7 +25,7 @@ Der Immo Organisator ist eine Browser App, die deine ImmoScout24-Suche direkt in
 Die Extension ist verfuegbar fuer:
 
 - Google Chrome - [im Web Store öffnen](https://chromewebstore.google.com/detail/immo-organisator/djmakpjgidbgchnhhplcigkfkcioaija)
-- Mozilla Firefox - [im Web Store öffnen](https://addons.mozilla.org/de/firefox/addon/immoscout24-organizer)
+- Mozilla Firefox - [im Web Store öffnen](https://addons.mozilla.org/de/firefox/addon/immo-organisator)
 - Microsoft Edge - [im Web Store öffnen](https://microsoftedge.microsoft.com/addons/detail/immo-organisator/godffgckocjmdfcomoaincfiafackebl)
 
 ## Homepage
