@@ -409,6 +409,69 @@ h3 {
   display: block;
 }
 
+.section-shorts {
+  padding-top: 26px;
+}
+
+.section-shorts .section-intro {
+  max-width: 620px;
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+.shorts-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.shorts-card {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgb(7 46 43 / 8%);
+  text-decoration: none;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.shorts-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--scout-green);
+  box-shadow: 0 16px 34px rgb(7 46 43 / 12%);
+}
+
+.shorts-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--techrock-blue);
+  box-shadow:
+    0 16px 34px rgb(7 46 43 / 12%),
+    0 0 0 4px rgb(36 90 117 / 34%);
+  outline: 2px solid var(--techrock-blue);
+  outline-offset: 2px;
+}
+
+.shorts-card img {
+  width: min(76%, 150px);
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+  justify-self: center;
+  border-radius: 6px;
+  background: #e8eeee;
+}
+
+.shorts-card span {
+  color: var(--techrock-ink);
+  font-size: 1.12rem;
+  font-weight: 800;
+  text-align: center;
+}
+
 .gallery-item {
   position: relative;
   display: grid;
@@ -427,12 +490,20 @@ h3 {
     box-shadow 180ms ease;
 }
 
-.gallery-item:hover,
-.gallery-item:focus-visible {
+.gallery-item:hover {
   transform: translateY(-3px);
   border-color: var(--scout-green);
   box-shadow: 0 20px 52px rgb(7 46 43 / 14%);
-  outline: none;
+}
+
+.gallery-item:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--techrock-blue);
+  box-shadow:
+    0 20px 52px rgb(7 46 43 / 14%),
+    0 0 0 4px rgb(36 90 117 / 34%);
+  outline: 2px solid var(--techrock-blue);
+  outline-offset: 2px;
 }
 
 .gallery-item img {
@@ -686,6 +757,10 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .shorts-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .gallery-item-large,
   .gallery-item-tall,
   .gallery-item-wide,
@@ -764,6 +839,15 @@ h3 {
 
   .gallery {
     grid-template-columns: 1fr;
+  }
+
+  .section-shorts {
+    padding-top: 10px;
+  }
+
+  .shorts-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
   }
 
   .gallery-item,
